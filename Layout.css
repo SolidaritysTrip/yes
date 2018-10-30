@@ -1,0 +1,132 @@
+html {
+  width: 100%;
+  height: auto;
+  background-color: rgb(30,30,30);
+}
+
+body {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+/* Styling Header */
+header {
+  width: 95%;
+  height: 10%;
+  margin: auto;
+  border-bottom: 2px solid gray;
+}
+
+header h1 {
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(232,93,117);
+  margin: auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Styling header nav */
+header nav {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+header nav ul li {
+  display: inline;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 2px solid gray;
+}
+
+/* Styling links in header nav */
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+/* Styling the article */
+article {
+  width: 90%;
+  height: 78.7%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+article h2 a {
+  color: rgb(232,93,117);
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+article > p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-left: 5%;
+}
+
+article ul {
+  color: white;
+  font-weight: bold;
+  padding-left: 8%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer Styles*/
+footer {
+  width: 95%;
+  height: 10%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+footer img {
+  width: 6%;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+footer h3 {
+  margin: 2px;
+  padding-left: 6%;
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(232,93,117);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  text-align: right;
+  padding: 2px;
+  margin: 0px;
+  font-size: .6em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.center {
+  width: 2%;
+  margin: auto;
+  margin-left: 3px;
+  float: none;
+}
